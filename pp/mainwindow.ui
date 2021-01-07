@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>811</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/pro/z/125489252_1022359864930923_5907136318288721998_n.png);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>commande</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>-320</x>
+        <y>50</y>
+        <width>681</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/pro/z/125489252_1022359864930923_5907136318288721998_n.png);</string>
+      </property>
+      <property name="text">
+       <string>                                                                                                                                     reference :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>-320</x>
+        <y>100</y>
+        <width>681</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                                                                                                      model :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>-320</x>
+        <y>150</y>
+        <width>701</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                                                                                                     carburant :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>-320</x>
+        <y>200</y>
+        <width>681</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                                                                                                      date :</string>
+      </property>
+     </widget>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>200</y>
+        <width>121</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>0</y>
+        <width>271</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                       Tab des commandes :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>-320</x>
+        <y>250</y>
+        <width>701</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                                                                                                      tel :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>50</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>100</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="carbedit">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>150</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="teledit">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>250</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>380</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                      PDF</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>370</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>370</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Reference</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Model</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Tel</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTableView" name="tableView">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>20</y>
+        <width>391</width>
+        <height>351</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>réclamation</string>
+     </attribute>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>-60</x>
+        <y>120</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                 Adress mail :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>-70</x>
+        <y>170</y>
+        <width>211</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                              Description :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>0</y>
+        <width>281</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                          Tab des réclamation :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>120</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>20</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>-90</x>
+        <y>20</y>
+        <width>251</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                        ID Commande :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>-90</x>
+        <y>70</y>
+        <width>251</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                                                    ref reclamation :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>70</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_2">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>30</y>
+        <width>411</width>
+        <height>341</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>170</y>
+        <width>131</width>
+        <height>81</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>380</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>                   PDF</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_3">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>370</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>ID COMMANDE</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>REF RECLAMATION</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>370</y>
+        <width>135</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+     background-color:#DCDCDC;
+     border-style: outset;
+     border-width: 2px;
+     border-radius: 10px;
+     border-color: #1C2951;
+     font: bold 14px;
+     min-width: 7em;
+     padding: 6px;
+}
+ QLineEdit {
+     image: url(myindicator.png);
+ }</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 85, 127)</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="aj"/>
+   <addaction name="mo"/>
+   <addaction name="su"/>
+   <addaction name="st"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 85, 127)</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionajout"/>
+   <addaction name="actionmodif"/>
+   <addaction name="actionsupp"/>
+   <addaction name="actiontri"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 85, 127)</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>BottomToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="act"/>
+  </widget>
+  <action name="aj">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/64475217_485000778929806_9221561978722451456_n.png</normaloff>:/pro/z/64475217_485000778929806_9221561978722451456_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>aj</string>
+   </property>
+  </action>
+  <action name="mo">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125988810_413682720015705_7835710884768777213_n.png</normaloff>:/pro/z/125988810_413682720015705_7835710884768777213_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>mo</string>
+   </property>
+  </action>
+  <action name="su">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125877250_1659729674236778_2734163928354388076_n.png</normaloff>:/pro/z/125877250_1659729674236778_2734163928354388076_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>su</string>
+   </property>
+  </action>
+  <action name="re">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/78863204_2805653369455111_5306854972392996864_n.png</normaloff>:/pro/z/78863204_2805653369455111_5306854972392996864_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>re</string>
+   </property>
+  </action>
+  <action name="st">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125840942_800780457167528_3198978678650991810_n.png</normaloff>:/pro/z/125840942_800780457167528_3198978678650991810_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>st</string>
+   </property>
+  </action>
+  <action name="wa">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125489252_1022359864930923_5907136318288721998_n.png</normaloff>:/pro/z/125489252_1022359864930923_5907136318288721998_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>wa</string>
+   </property>
+  </action>
+  <action name="act">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/z/téléchargement.png</normaloff>:/z/téléchargement.png</iconset>
+   </property>
+   <property name="text">
+    <string>act</string>
+   </property>
+  </action>
+  <action name="actionajout">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/64475217_485000778929806_9221561978722451456_n.png</normaloff>:/pro/z/64475217_485000778929806_9221561978722451456_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>ajout</string>
+   </property>
+  </action>
+  <action name="actionmodif">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125988810_413682720015705_7835710884768777213_n.png</normaloff>:/pro/z/125988810_413682720015705_7835710884768777213_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>modif</string>
+   </property>
+  </action>
+  <action name="actionsupp">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125877250_1659729674236778_2734163928354388076_n.png</normaloff>:/pro/z/125877250_1659729674236778_2734163928354388076_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>supp</string>
+   </property>
+  </action>
+  <action name="actiontri">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/pro/z/125840942_800780457167528_3198978678650991810_n.png</normaloff>:/pro/z/125840942_800780457167528_3198978678650991810_n.png</iconset>
+   </property>
+   <property name="text">
+    <string>tri</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
